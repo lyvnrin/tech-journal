@@ -1,10 +1,8 @@
-# 🧠 Dev Journal - CLI Toolkit Setup
+# Dev Journal - CLI Toolkit Setup
 
-## Date: 2026-04-16
+> Date: 2026-04-16
 
----
-
-## 🚀 Overview
+## Overview
 
 Today I started building a personal CLI toolkit inside WSL to improve my development workflow and reduce repetitive setup tasks.
 
@@ -14,41 +12,33 @@ The goal is to create a structured environment where I can:
 - keep notes organised
 - centralise dev workflows
 
----
-
-## ⚙️ What I Built
+## What I Built
 
 ### 1. React Project Generator (`create-react`)
 
 A custom bash script that:
-
 - creates a Vite + React project
 - installs dependencies automatically
-- initializes a Git repository
+- initialises a Git repository
 - prompts for git user.name and user.email
 - optionally adds a remote origin
 - creates an initial commit
 
-📁 All projects are stored in:
-
-~/personal-projects/
-
----
+All projects are stored in: `~/personal-projects/`
 
 ### 2. Dev Workspace Structure
 
 Reorganised WSL environment into:
-
+```
 ~/dev-tools/ → CLI scripts
 ~/personal-projects/ → all coding projects
 ~/notes/ → markdown notes
+```
 
 This helped separate:
 - tooling
 - projects
 - documentation
-
----
 
 ### 3. Dev Menu System (`dev`)
 
@@ -66,8 +56,6 @@ Planned improvements:
 - shortcuts
 - command-based mode (instead of menu only)
 
----
-
 ### 4. Project Launcher (`dev-start`)
 
 Created a launcher script that:
@@ -76,8 +64,6 @@ Created a launcher script that:
 
 Purpose:
 - act as a “dev session entry point”
-
----
 
 ### 5. Notes System (`dev-notes.md` + `notes` alias)
 
@@ -90,9 +76,7 @@ Created a central markdown file to track:
 
 Added alias: notes → opens dev-notes.md
 
----
-
-## 🧠 Key Problems Solved
+## Key Problems Solved
 
 ### 1. Broken workflow automation
 Fixed inconsistent manual setup of React projects.
@@ -108,25 +92,19 @@ Fixed misunderstanding between:
 - scripts vs directories
 - CLI tools vs folders
 
----
-
-## ⚠️ Issues Encountered
+## Issues Encountered
 
 - Vite interactive prompts can break script flow if not handled carefully
 - Missing CLI dependencies caused runtime errors (e.g. `dev` script not found initially)
 - Bash path assumptions required explicit directory handling
 
----
-
-## 📌 Current Limitations
+## Current Limitations
 
 - CLI toolkit is still single-level (no nested navigation yet)
 - No auto GitHub repository creation yet
 - No command parsing mode (only menu-based interaction)
 
----
-
-## 🚀 Next Improvements
+## Next Improvements
 
 - Add auto GitHub repo creation + push
 - Convert CLI menu into command-based system: dev create-react my-app
@@ -134,10 +112,6 @@ Fixed misunderstanding between:
 - Improve menu navigation (back system, submenus)
 - Build full “dev dashboard” startup experience
 
----
-
-## 🧠 Reflection
+## Reflection
 
 This setup marks the transition from manually running commands to building a personalized development environment. Instead of memorising workflows, I am now encoding them into reusable tools.
-
----
