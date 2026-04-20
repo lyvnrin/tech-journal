@@ -8,7 +8,6 @@ This repo is a running journal of how I build and refine my personal development
 
 It includes:
 - CLI tools (bash scripts, aliases)
-- project automation workflows
 - Git / database setup processes
 - debugging notes
 - system improvements and ideas
