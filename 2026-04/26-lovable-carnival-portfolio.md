@@ -7,6 +7,8 @@
 
 *I had an idea that I was slightly embarrassed about for about thirty seconds, and then I just went for it. A portfolio website where the navigation is a carnival shooting gallery. Your mouse is the gun. About, Skills, Projects, Contact are the moving targets. You have to shoot all four to "win", and the end screen is a grand prize reveal. I built it as a Lovable prototype - just prompting my way through it iteratively - and honestly it came out better than it had any right to. The aesthetic started comic-book chaotic and I dragged it into something more editorial and chic. Serif fonts. Moody palette. Carnival yes, but make it Vogue.*
 
+> Inspo: Mouse P.I. For Hire - Finger Guns ability activated after drinking coffee in-game. Unlocked after the carnival games scene.
+
 ---
 
 ## Overview
