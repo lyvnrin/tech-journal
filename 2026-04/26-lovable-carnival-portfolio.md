@@ -96,6 +96,14 @@ The shift from "playful" to "chic" was the most important prompt iteration of th
 - Sound design - a subtle click or carnival ambient layer would complete the aesthetic
 - Add a "high score" / speed-run mode for returning visitors
 
+## Images
+<details>
+  <summary>View here</summary>
+  <img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/05a6d2d5-8d23-40cd-a896-45c5f0d48d1f" />
+  <img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/a6c7bc97-5a68-4839-b5e8-ca1e2d15c4c2" />
+  <img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/f409d9b3-bd5c-43bc-ade7-e2ecfcfadceb" />
+</details>
+
 ## Reflection
 
 This is exactly what Lovable is useful for: ideas that are slightly ridiculous but technically non-trivial to scaffold from scratch. The shooting gallery mechanic would have taken a full day to build properly in React. In Lovable, the hard part was taste, not code. Getting the aesthetic right through prompts alone is its own skill, and it's one worth practising. Knowing what to ask for - and how specifically to ask for it - is half the work.
