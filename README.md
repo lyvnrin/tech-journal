@@ -1,4 +1,4 @@
-# Dev Journal
+# Tech Journal
 
 A personal engineering log documenting my development journey, CLI tools, and workflow experiments inside WSL.
 
