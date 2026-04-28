@@ -98,11 +98,9 @@ Old movie, not retro-kitsch. Iterated toward:
 
 5. Added timer presets (25/5, 50/10, 90/15) plus Zod validation for task name and minutes
 
-6. Generated a standalone Claude prompt markdown for rebuilding the app in vanilla React + CSS
+6. Layout pass - ticket made horizontal, centered, smaller, pulled away from the browser edges
 
-7. Layout pass - ticket made horizontal, centered, smaller, pulled away from the browser edges
-
-8. Added Midnight mode - full dark theme toggle persisting in localStorage
+7. Added Midnight mode - full dark theme toggle persisting in localStorage
 
 ## What Worked Well
 
