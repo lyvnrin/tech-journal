@@ -7,6 +7,8 @@
 
 *I wanted to try computer vision. Not because of a course, not because someone showed me something cool, just because I wanted to know if I could make my laptop see. That felt like enough of a reason. I picked OpenCV, got it running, pointed my webcam at my hands, and spent a while just understanding what was happening at the pixel level. Then I built something concrete: a tool that detects your two index fingers and measures the distance between them in pixels. It works. I ran it, held up both fingers, and watched a number on screen update in real time as I moved my hands apart. Genuinely one of the more satisfying moments I've had at a keyboard.*
 
+> Inspo: Wanted to tryout those projects on TouchDesign, but my daily laptop could only take so much storage. So, I decided to try it with Python libraries.
+
 ---
 
 ## Overview
